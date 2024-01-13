@@ -1,0 +1,17 @@
+RCON client for GNU Emacs.
+
+example usage:
+
+  (require 'rcon)
+
+  (defun res-handler (res)
+  (interactive)
+  (with-current-buffer (get-buffer-create "*temp*")
+      (insert res)
+      (insert "\n\n"))
+  (switch-to-buffer "*temp*"))
+
+  (setq rcon-response-handler #'res-handler)
+
+  (rcon-connect "mc.example.com" 25541 "passwd123")
+  (rcon-execute-command "list")
