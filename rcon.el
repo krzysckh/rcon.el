@@ -87,7 +87,7 @@
    :type 'plain
    :filter #'rcon-filter)
   (with-current-buffer (get-buffer-create rcon-buffer-name)
-    (add-hook 'after-change-functions 'rcon-buf-change-hook nil t))
+    (add-hook 'after-change-functions #'rcon-buf-change-hook nil t))
   (rcon-register passwd))
 
 ;;;###autoload
