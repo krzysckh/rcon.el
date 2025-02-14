@@ -1,11 +1,11 @@
 ;;; rcon.el --- RCON client -*- lexical-binding: t -*-
 
-;; Author: kpm <kpm@linux.pl>
+;; Author: kpm <kpm@krzysckh.org>
 ;; Created: 13 Jan 2024
 ;; Keywords: network, rcon, server, game
 ;; URL: https://github.com/krzysckh/rcon.el
 ;;
-;; Copyright (C) 2024 kpm <kpm@linux.pl>
+;; Copyright (C) 2024 kpm <kpm@krzysckh.org>
 ;;
 ;; Redistribution and use in source and binary forms, with or without
 ;; modification, are permitted provided that the following conditions are
